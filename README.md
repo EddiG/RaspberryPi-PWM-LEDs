@@ -1,1 +1,1 @@
-# RaspberryPi-PWM-LEDs
+# Raspberry Pi - PWM - LED Strip
