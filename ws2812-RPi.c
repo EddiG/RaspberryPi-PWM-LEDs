@@ -1391,7 +1391,7 @@ void effectsDemo() {
 }
 
 
-void init() { 
+void init_pwm() { 
 
 	// Catch all signals possible - it's vital we kill the DMA engine on process exit!
 	int i;
@@ -1413,7 +1413,7 @@ void init() {
 	clearLEDBuffer();
 }
 
-void dispose() {
+void dispose_pwm() {
 	// Exit cleanly, freeing memory and stopping the DMA & PWM engines
 	// We trap all signals (including Ctrl+C), so even if you don't get here, it terminates correctly
 	terminate(0);
